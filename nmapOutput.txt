@@ -1,0 +1,64 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-12-10 18:29 UTC
+Nmap scan report for _gateway (192.168.0.1)
+Host is up (0.0055s latency).
+Not shown: 994 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+53/tcp   open  domain
+443/tcp  open  https
+3128/tcp open  squid-http
+8090/tcp open  opsmessaging
+
+Nmap scan report for 192.168.0.2
+Host is up (0.0064s latency).
+Not shown: 980 closed ports
+PORT     STATE SERVICE
+7/tcp    open  echo
+9/tcp    open  discard
+13/tcp   open  daytime
+17/tcp   open  qotd
+19/tcp   open  chargen
+42/tcp   open  nameserver
+53/tcp   open  domain
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1025/tcp open  NFS-or-IIS
+1047/tcp open  neod1
+1060/tcp open  polestar
+1061/tcp open  kiosk
+1069/tcp open  cognex-insight
+1084/tcp open  ansoft-lm-2
+1311/tcp open  rxmon
+3389/tcp open  ms-wbt-server
+5432/tcp open  postgresql
+
+
+Nmap scan report for 192.168.0.3
+Host is up (0.0061s latency).
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+
+Nmap scan report for 192.168.0.9
+Host is up (0.0052s latency).
+Not shown: 989 closed ports
+PORT     STATE SERVICE
+53/tcp   open  domain
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1040/tcp open  netsaint
+1043/tcp open  boinc
+1048/tcp open  neod2
+1049/tcp open  td-postman
+3389/tcp open  ms-wbt-server
+5800/tcp open  vnc-http
+5900/tcp open  vnc
+
